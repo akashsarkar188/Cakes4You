@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:id="@+id/e1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:hint="email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/e3"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/registerbutton"
+        android:onClick="register"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Skip"
+        android:onClick="skip"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="end"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:background="@drawable/skipbutton"/>
+
+</LinearLayout>

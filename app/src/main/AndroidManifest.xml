@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gd.rf.savvy.www.cakes4you">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Cakes 4 You"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name=".First"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin"
+            android:label="Chef" />
+        <activity
+            android:name=".AddProduct"
+            android:label="Let&apos;s Bake !!" />
+        <activity
+            android:name=".ShowProduct"
+            android:label="Refrigerator" />
+        <activity
+            android:name=".Settings"
+            android:label="Settings" />
+        <activity
+            android:name=".About"
+            android:label="About Us" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Registration"
+            android:label="Registration" />
+        <activity
+            android:name=".Login"
+            android:label="LOGIN" />
+        <activity android:name=".ForgetPAssword" />
+        <activity
+            android:name=".Weddingtypelist"
+            android:label="Wedding Cakes" />
+        <activity
+            android:name=".Designtypelist"
+            android:label="Designer Cakes" />
+        <activity
+            android:name=".Cupcaketypelist"
+            android:label="Cupcakes" />
+        <activity android:name=".Specification" />
+        <activity android:name=".Cart"
+            android:label="Cart">
+        </activity>
+        <activity android:name=".Order"
+            android:label="Order">
+
+        </activity>
+    </application>
+
+</manifest>

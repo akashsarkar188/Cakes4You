@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1071411970888",
+    "firebase_url": "https://cakes4you-56407.firebaseio.com",
+    "project_id": "cakes4you-56407",
+    "storage_bucket": "cakes4you-56407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071411970888:android:6553281ee07a00dd",
+        "android_client_info": {
+          "package_name": "gd.rf.savvy.www.cakes4you"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071411970888-d2h142adn7qgolrcio88ui6hrgv5t33j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gd.rf.savvy.www.cakes4you",
+            "certificate_hash": "8cd800f451d124deb83d36192bc4f9886d82cd71"
+          }
+        },
+        {
+          "client_id": "1071411970888-03tio4og36rtf1b20l7g30tp8knehcdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDql7w2IxQUJoSGhIP86RKRqS2vl0_Cw0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071411970888-03tio4og36rtf1b20l7g30tp8knehcdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

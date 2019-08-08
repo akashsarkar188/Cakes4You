@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddProduct">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/addimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/addimage"
+                android:background="#00ffffff"
+                android:onClick="Addimg"
+                android:layout_marginTop="7dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:text="Enter Name : "
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etname"
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name for cake"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Select Weight : "
+                android:textSize="20sp"
+                android:layout_marginTop="7dp"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/sweight"
+                android:layout_width="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/Weight">
+            </Spinner>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:text="Select Flavour : "
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/sflavour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:entries="@array/Flavour">
+
+            </Spinner>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:text="Select Type : "
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/stype"
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/Type"
+                android:gravity="center">
+            </Spinner>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="7dp"
+                android:text="Enter Price (₹) : "
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etprice"
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Price of cake ₹ "/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/submit"
+                android:onClick="bsubmit"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

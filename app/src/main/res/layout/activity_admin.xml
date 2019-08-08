@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="10dp"
+                android:layout_y="7dp"
+                android:text="BAKERY 🎂 "
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="104dp"
+                android:layout_y="53dp"
+                android:text="Add Cake(s)  "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:onClick="addproduct"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/addproductb"
+                android:layout_width="47dp"
+                android:layout_height="43dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_x="35dp"
+                android:layout_y="49dp"
+                android:background="@drawable/addcake"
+                android:contentDescription="Add product"
+                android:onClick="addproduct" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="104dp"
+                android:layout_y="115dp"
+                android:text="View Cakes  "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:onClick="showproduct"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/showproductb"
+                android:layout_width="47dp"
+                android:layout_height="43dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_x="35dp"
+                android:layout_y="109dp"
+                android:background="@drawable/cakeslice"
+                android:contentDescription="View Product"
+                android:onClick="showproduct" />
+        </AbsoluteLayout>
+    </ScrollView>
+</LinearLayout>

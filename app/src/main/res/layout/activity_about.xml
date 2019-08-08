@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_x="6dp"
+                android:layout_y="23dp"
+                android:fontFamily="@font/kalam_light"
+                android:text="MADE WITH"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="272dp"
+                android:layout_y="160dp"
+                android:fontFamily="@font/kalam_light"
+                android:text="IN INDIA"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="47dp"
+                android:layout_y="248dp"
+                android:fontFamily="@font/kalam_light"
+                android:text="BY :"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_x="99dp"
+                android:layout_y="0dp"
+                android:background="@drawable/made" />
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="225dp"
+                android:layout_x="98dp"
+                android:layout_y="279dp"
+                android:background="@drawable/me" />
+
+        </AbsoluteLayout>
+    </ScrollView>
+</LinearLayout>

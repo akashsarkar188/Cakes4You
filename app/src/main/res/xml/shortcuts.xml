@@ -1,0 +1,52 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <shortcut
+        android:shortcutId="addcake"
+        android:enabled="true"
+        android:icon="@drawable/addcake"
+        android:shortcutShortLabel="@string/shortcut"
+        android:shortcutLongLabel="@string/shortcut"
+        android:shortcutDisabledMessage="@string/shortcut">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="gd.rf.savvy.www.cakes4you"
+            android:targetClass="gd.rf.savvy.www.cakes4you.AddProduct" />
+        <categories android:name="android.app.shortcuts" />
+    </shortcut>
+
+
+    <shortcut
+        android:shortcutId="viewcake"
+        android:enabled="true"
+        android:icon="@drawable/cakeslice"
+        android:shortcutShortLabel="@string/shortcut1"
+        android:shortcutLongLabel="@string/shortcut1"
+        android:shortcutDisabledMessage="@string/shortcut1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="gd.rf.savvy.www.cakes4you"
+            android:targetClass="gd.rf.savvy.www.cakes4you.ShowProduct" />
+        <categories android:name="android.app.shortcuts" />
+    </shortcut>
+
+
+    <!--<shortcut
+        android:shortcutId="viewcake"
+        android:enabled="true"
+        android:icon="@drawable/cakeslice"
+        android:shortcutShortLabel="@string/shortcut1"
+        android:shortcutLongLabel="@string/shortcut1"
+        android:shortcutDisabledMessage="@string/shortcut1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="gd.rf.savvy.www.cakes4you"
+            android:targetClass="gd.rf.savvy.www.cakes4you.ShowProduct" />
+        <categories android:name="android.app.shortcuts" />
+    </shortcut>-->
+
+
+
+</shortcuts>

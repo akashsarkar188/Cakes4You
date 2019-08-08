@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="210dp"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_width="185dp"
+            android:layout_height="200dp"
+            android:layout_x="218dp"
+            android:layout_y="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/typeText"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Type"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/flavText"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:text="Flavour"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/weightText"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </AbsoluteLayout>
+</LinearLayout>

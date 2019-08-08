@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Cakes 4 You</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="shortcut">Add Cake</string>
+    <string name="shortcut1">View Cake</string>
+
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string-array name="Weight">
+        <item>Select Weight</item>
+        <item>500 Grams</item>
+        <item>1000 Grams</item>
+        <item>2000 Grams</item>
+        <item>3000 Grams</item>
+        <item>10,000 Grams</item>
+    </string-array>
+
+    <string-array name="Flavour">
+        <item>Select Flavour</item>
+        <item>Chocolate</item>
+        <item>Butterscotch</item>
+        <item>Strawberry</item>
+        <item>Vanilla</item>
+        <item>Pineapple</item>
+        <item>Chicken</item>
+    </string-array>
+    <string-array name="Type">
+        <item>Select Type</item>
+        <item>Birthday Cake</item>
+        <item>Wedding Cake</item>
+        <item>Character Cake</item>
+        <item>Children Cake</item>
+        <item>Emoji/Pet Cake</item>
+        <item>Cupcake</item>
+        <item>Designer/Cute Cake</item>
+    </string-array>
+</resources>

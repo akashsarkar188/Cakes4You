@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".First"
+    android:background="#f0ecec"
+    tools:showIn="@layout/app_bar_first"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:autoStart="true"
+        android:flipInterval="2000"
+        android:id="@+id/vflip"
+        android:animateFirstView="true"
+        android:animateLayoutChanges="true"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:requiresFadingEdge="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/wedcake"
+            android:background="@drawable/gradiantforwedd"
+            android:layout_height="match_parent"
+            android:onClick="wedding" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/doggocake"
+            android:layout_height="match_parent"
+            android:onClick="Design"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/header"
+            android:layout_height="match_parent"
+            android:onClick="cupcake"/>
+    </ViewFlipper>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#28E0CF"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="SPECIAL CAKES"
+                android:textColor="#fff"
+                android:clickable="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <ImageButton
+            android:id="@+id/im1"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:background="@drawable/cupcake"/>
+        <ImageButton
+            android:id="@+id/im2"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/girlcake"/>
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+        <ImageButton
+            android:id="@+id/im3"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/babycake"/>
+        <ImageButton
+            android:id="@+id/im4"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/cutecake"/>
+
+    </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SEE MORE"
+                android:layout_marginTop="20dp"
+                android:id="@+id/seemore"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
